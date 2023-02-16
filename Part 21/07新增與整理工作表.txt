@@ -1,0 +1,4 @@
+Worksheets.Add(After:=Worksheets(2)).Name = "第三梯"
+Worksheets("第一梯").Move before:=Worksheets(1)
+Worksheets("第一梯").Range("A2:G4").Copy
+Worksheets("第三梯").Range("A2:G4").PasteSpecial

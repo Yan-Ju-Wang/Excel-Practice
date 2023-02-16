@@ -1,0 +1,3 @@
+    Data = InputBox("請輸入修正者姓名與所屬單位")
+    Target.Value = Now & Data
+    Target.Interior.ColorIndex = 6

@@ -1,0 +1,7 @@
+Dim r As Integer
+r = ActiveSheet.UsedRange.Rows.Count 
+For i = r To 1 Step -1
+    If Cells(i, 1) Like "備註*" Then
+        Rows(i).Delete
+    End If
+Next i

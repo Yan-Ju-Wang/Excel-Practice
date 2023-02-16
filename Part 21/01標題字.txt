@@ -1,0 +1,4 @@
+    Range("A1").Font.Bold = True '將A1儲存格的字型設為粗體
+    Range("A1").Font.Name = "Arial Black" '將A1儲存格的字型設為Arial Black
+    Range("A1").Font.Size = 22 '將A1儲存格的字型大小設為22
+    Range("A1").Font.Color = RGB(45, 88, 135) '將A1儲存格的字設為藍色

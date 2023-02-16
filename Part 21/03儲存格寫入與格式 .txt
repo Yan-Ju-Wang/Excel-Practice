@@ -1,0 +1,6 @@
+    Range("F1").Value = "製表人：王小明"
+    Range("H1").Value = Now
+    Range("H1").ColumnWidth = 18
+    Range("a4:h4").Interior.Color = RGB(179, 217, 255)
+    Range("a4:h4").RowHeight = 30
+    Range("a4:h4").BorderAround LineStyle:=xlDash, ColorIndex:=3
